@@ -19,3 +19,6 @@ This project contains tools for analyzing neural spike train data and measuring 
 ## Usage
 - Run classification: `python scripts/train_classifier.py`
 - Run complexity analysis: `python scripts/analyze_complexity.py`
+
+## Paper
+Arxiv
