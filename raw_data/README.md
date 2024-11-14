@@ -2,6 +2,7 @@
 
 This directory should contain the following files:
 - meta_data.csv: Contains spike train data with columns Data1-Data5
+- dataset5_predictions.csv: Contained post training dataset
 
 ## Data Format
 Each dataset contains:
