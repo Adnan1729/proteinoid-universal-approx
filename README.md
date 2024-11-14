@@ -166,32 +166,3 @@ If you use this code in your research, please cite:
   year={2024}
 }
 ```
-
-### Contributors
-- Saksham Sharma (Unconventional Computing Laboratory, UWE Bristol)
-- Adnan Mahmud (Department of Chemical Engineering, Cambridge)
-- Giuseppe Tarabella (IMEM-CNR)
-- Panagiotis Mougoyannis (UWE Bristol)
-- Andrew Adamatzky (UWE Bristol)
-
-## Support
-
-For questions or issues:
-1. Check existing GitHub issues
-2. Create a new issue with:
-   - Detailed description
-   - Minimal reproducible example
-   - System information
-   - Error messages/logs
-
-## Future Directions
-
-1. **Model Improvement**
-   - Enhanced feature engineering
-   - Architecture optimization
-   - Increased training data
-
-2. **Theoretical Extensions**
-   - Investigation of random vs. structured sequences
-   - Advanced proteinoid physical generative AI models
-   - Universal-computing multiverse paradigms
