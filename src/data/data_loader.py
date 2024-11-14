@@ -1,5 +1,5 @@
 # File path
-file_path = r"C:\Users\adnan\OneDrive\Documents\Complexity_Shokkom_Sharma\relu\meta_data.csv"
+file_path = r"C:\...relu\meta_data.csv"
 spike_data = pd.read_csv(file_path)
 
 # Function to process dataset
