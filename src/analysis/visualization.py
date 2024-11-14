@@ -75,25 +75,3 @@ def plot_multinodal_graph(dataframes):
 # Plot multinodal graphs
 plot_multinodal_graph(dataframes)
 
-# Additional analysis (same as before)
-for i, df in enumerate(dataframes, 1):
-    print(f"\nDataset {i} Transformation Analysis:")
-    t_values = np.arange(1, 21)
-    x_t_values = F1(t_values)
-    selected_points = [find_point_less_than(df, x) for x in x_t_values]
-    
-    print("F1 values (x(t)):")
-    print(", ".join(f"{x:.2f}" for x in x_t_values))
-    
-    print("\nSelected points from dataset:")
-    print(", ".join(f"{x:.6f}" if pd.notna(x) else "N/A" for x in selected_points))
-    
-    print("\nFirst significant digits after decimal point (d):")
-    d_values = [F2(x) if pd.notna(x) else "N/A" for x in selected_points]
-    print(", ".join(str(int(d)) if pd.notna(d) and d != "N/A" else "N/A" for d in d_values))
-    
-    print("\nNumber of connections for each selected point:")
-    for point, d in zip(selected_points, d_values):
-        if pd.notna(point) and d != "N/A":
-            connected_points = find_points_with_same_digit(df, point, d)
-            print(f"Point {point:.6f} (d={int(d)}): {len(connected_points)} connections")
