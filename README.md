@@ -153,9 +153,6 @@ Input data should be a CSV file containing:
 
 ## Legal and Attribution
 
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ### Citation
 If you use this code in your research, please cite:
 ```bibtex
@@ -166,3 +163,8 @@ If you use this code in your research, please cite:
   year={2024}
 }
 ```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2024 Adnan Mahmud
