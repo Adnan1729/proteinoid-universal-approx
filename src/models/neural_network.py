@@ -1,4 +1,3 @@
-# neural_network.py (src/models/neural_network.py)
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
