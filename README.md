@@ -60,7 +60,7 @@ project_structure/
 
 ```bash
 # Clone repository
-git clone https://github.com/username/proteinoid-spike-analysis.git
+git clone https://github.com/Adnan1729/proteinoid-spike-analysis.git
 cd proteinoid-spike-analysis
 
 # Create virtual environment (recommended)
